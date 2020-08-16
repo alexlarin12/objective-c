@@ -12,8 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Student : NSObject
 
-@property (nonatomic) NSString *name;
-@property (nonatomic) NSString *surname;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *surname;
 @property (readonly, nonatomic) NSString *fullName;
 @property (readonly, nonatomic) int age;
 

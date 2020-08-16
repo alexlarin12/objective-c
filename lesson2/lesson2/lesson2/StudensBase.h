@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface StudensBase : NSObject
 
-@property (nonatomic) NSArray<Student*>* list;
+@property (nonatomic, strong) NSArray<Student*>* list;
 -(NSArray<Student*>*)generateList;
 -(void)printList;
 
