@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431E331E24E034350051AF39 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 431E331D24E034350051AF39 /* Student.m */; };
 		4343F23824CCA4BE004B3594 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4343F23724CCA4BE004B3594 /* main.m */; };
 		4343F24024CCA50B004B3594 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4343F23F24CCA50B004B3594 /* Test.m */; };
+		43464C0724E0A1F10021F6AC /* StudensBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 43464C0624E0A1F10021F6AC /* StudensBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		431E331C24E034350051AF39 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		431E331D24E034350051AF39 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		4343F23424CCA4BD004B3594 /* lesson2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lesson2; sourceTree = BUILT_PRODUCTS_DIR; };
 		4343F23724CCA4BE004B3594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4343F23E24CCA50B004B3594 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		4343F23F24CCA50B004B3594 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		43464C0524E0A1F10021F6AC /* StudensBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudensBase.h; sourceTree = "<group>"; };
+		43464C0624E0A1F10021F6AC /* StudensBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudensBase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				4343F23724CCA4BE004B3594 /* main.m */,
+				431E331C24E034350051AF39 /* Student.h */,
+				431E331D24E034350051AF39 /* Student.m */,
+				43464C0524E0A1F10021F6AC /* StudensBase.h */,
+				43464C0624E0A1F10021F6AC /* StudensBase.m */,
 				4343F23E24CCA50B004B3594 /* Test.h */,
 				4343F23F24CCA50B004B3594 /* Test.m */,
 			);
@@ -125,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4343F23824CCA4BE004B3594 /* main.m in Sources */,
+				43464C0724E0A1F10021F6AC /* StudensBase.m in Sources */,
 				4343F24024CCA50B004B3594 /* Test.m in Sources */,
+				431E331E24E034350051AF39 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

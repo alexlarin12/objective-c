@@ -8,10 +8,17 @@
 
 #import <Foundation/Foundation.h>
 #import "Test.h"
+#import "Student.h"
+#import "StudensBase.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+  //      [[Student new] print];
+        [[StudensBase new] generateList];
+        [[StudensBase new] printList];
+       
         
+        /*
     // Strings from array
          
          NSArray <NSString *> *newArray = @[@"one", @"two", @"three", @"four", @"five"];
@@ -60,6 +67,10 @@ int main(int argc, const char * argv[]) {
              NSLog(@"Цикл DO-WHILE: %@", string);
              i++;
          } while (i < count);
+        
+    
+        
+        */
         
         /*
 // CALCULATOR:
