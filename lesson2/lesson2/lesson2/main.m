@@ -72,7 +72,7 @@ int main(int argc, const char * argv[]) {
         
         */
         
-        /*
+/*
 // CALCULATOR:
         double first = 0;
         printf("Enter first number:\n");
@@ -81,13 +81,6 @@ int main(int argc, const char * argv[]) {
         double second = 0;
         printf("Enter second number:\n");
         scanf("%lf", &second);
-        
-        enum Calculator{
-            CalculatorSum,
-            CalculatorSub,
-            CalculatorMult,
-            CalculatorDiv
-        };
         
         char charValue;
         printf("Enter symbol: ");
@@ -103,8 +96,8 @@ int main(int argc, const char * argv[]) {
             NSLog(@"%lf / %lf = %@", first, second, [Test division:[NSNumber numberWithInt:first] and:[NSNumber numberWithInt:second]]);
         } else {
             NSLog(@"Wrong symbol between %lf and %lf", first, second);
-        }
-      
+        }*/
+  /*
  // ALPHABET:
         char letter;
         printf("Enter some english chsrscter: ");
