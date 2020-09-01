@@ -16,6 +16,5 @@ NS_ASSUME_NONNULL_BEGIN
 -(NSArray<Student*>*)generateList;
 -(void)printList;
 
-@end
 
 NS_ASSUME_NONNULL_END
